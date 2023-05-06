@@ -1,16 +1,13 @@
 <template>
-<div>hi</div>
-  <Tang/>
+<div>导航栏 | <router-link to="/">Tang</router-link>|<router-link to="/x">Tang2</router-link></div>
+  <hr/>
+  <router-view></router-view>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Tang from "./components/Tang.vue";
+
 export default {
   name: 'App',
-  components: {
-    HelloWorld,
-    Tang
-  }
+
 }
 </script>

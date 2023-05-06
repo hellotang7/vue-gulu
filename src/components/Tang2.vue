@@ -1,10 +1,10 @@
 <template>
-<div>第一个组件</div>
+<div>第二个组件</div>
 </template>
 
 <script>
 export default {
-  name: "Tang"
+  name: "Tang2"
 }
 </script>
 
