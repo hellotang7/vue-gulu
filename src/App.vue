@@ -9,8 +9,11 @@
 export default {
   name: 'App',
 setup(){
-      const asideVisible = ref(false)
-    provide('xxx',asideVisible) //set
+      //获取页面宽度决定asideVisible
+      const width = document.documentElement.clientWidth
+    console.log(width)
+      const asideVisible = ref(width <= 500 ? false:true)
+    provide('asideVisible',asideVisible) //set
 }
 }
 </script>
