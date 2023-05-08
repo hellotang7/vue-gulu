@@ -35,13 +35,18 @@ export default {
   components: {Topnav},
     setup(){
         const asideVisible = inject<Ref<boolean>>('asideVisible') //git
-        console.log('topnav 获取的 asideVisible 为:'+ asideVisible.value)
+        // console.log('topnav 获取的 asideVisible 为:'+ asideVisible.value)
         return {asideVisible}
     }
 }
 </script>
 
 <style lang="scss" scoped>
+  @media (max-width: 500px) {
+    .toggleAside {
+      display: inline-block;
+    }
+  }
   .layout {
     display: flex;
     flex-direction: column;
