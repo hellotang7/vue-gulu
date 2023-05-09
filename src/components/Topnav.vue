@@ -7,8 +7,8 @@
       </span>
         <div class="logo">
             <router-link to="/">
-                <svg class="icon" aria-hidden="true">
-                    <use xlink:href="#icon-gaoxiaoquwei"></use>
+                <svg class="icon" aria-hidden="true" style="color: #cc724d">
+                    <use xlink:href="#icon-cola"></use>
                 </svg>
             </router-link>
         </div>
@@ -38,19 +38,24 @@
 
 <style lang="scss" scoped>
   .topnav {
-    background: pink;
+    //border: 1px solid red;
+//background: #eaeae9;
     display: flex;
-    padding: 16px;
+    padding: 16px 100px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 10;
+    font-size: 20px;
+    align-items: center;
 
     > .logo {
       max-width: 6em;
       margin-right: auto;
+      font-size: 36px;
     }
+
 
     > .menu {
       display: flex;
@@ -59,7 +64,9 @@
 
       > li {
         margin: 0 1em;
+        //font-size: 20px;
       }
+
     }
 
     .toggleAside {
@@ -70,11 +77,13 @@
       left: 16px;
       top: 50%;
       transform: translateY(-50%);
+      font-size: 30px;
+      line-height: 24px;
 
 
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 700px) {
       .menu {
         display: none
       }
@@ -87,5 +96,16 @@
 
       }
     }
+  }
+  @media (max-width: 700px) {
+    .topnav{
+      background: #edeceb;
+      border: 1px solid #999;
+    }
+    .zx .ys{
+      display: none;
+    }
+
+
   }
 </style>
