@@ -21,9 +21,7 @@
                         <h3>基于 Vue 3</h3>
                         <p data-v-fae5bece="">骄傲地使用了 Vue 3 Composition API</p></li>
                     <li>
-                        <svg class="icon" aria-hidden="true">
-                            <use xlink:href="#icon-ts"></use>
-                        </svg>
+                        <img src="../assets/ts.png" alt="">
                         <h3>基于 TypeScript </h3>
                         <p data-v-fae5bece="">源代码采用 TypeScript 书写（非严格检查）</p></li>
                     <li>
@@ -114,8 +112,12 @@ import BackGround from "../components/BackGround.vue";
             width: 74px;
             height: 74px;
             margin: auto;
-
-
+          }
+          img{
+            width: 66px;
+            margin: auto;
+            transform: translateY(-6660px);
+            filter: drop-shadow(#264065 0 6660px)  //颜色、x轴偏移量、y轴偏移量,这里的颜色就是你要指定的颜色，不管原来的图片是什么颜色，都会变成这个颜色
           }
 
           h3 {

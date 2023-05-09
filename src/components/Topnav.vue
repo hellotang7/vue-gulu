@@ -7,7 +7,7 @@
       </span>
         <div class="logo">
             <router-link to="/">
-                <svg class="icon" aria-hidden="true" style="color: #cc724d">
+                <svg  class="icon" aria-hidden="true" style="color: #cc724d">
                     <use xlink:href="#icon-cola"></use>
                 </svg>
             </router-link>
@@ -54,6 +54,7 @@
       max-width: 6em;
       margin-right: auto;
       font-size: 36px;
+
     }
 
 
