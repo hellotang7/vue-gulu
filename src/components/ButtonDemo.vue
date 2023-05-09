@@ -29,6 +29,16 @@
         </div>
 
     </div>
+    <h1>示例3</h1>
+    <div>
+        <Button theme="link" >默认按钮</Button>
+        <Button theme="link" level="main">主要按钮</Button>
+        <Button theme="link" level="success">成功按钮</Button>
+        <Button theme="link" level="warning">警告按钮</Button>
+        <Button theme="link" level="danger">危险按钮</Button>
+        <Button theme="link" level="info">信息按钮</Button>
+
+    </div>
 </template>
 
 <script lang="ts">

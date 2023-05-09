@@ -53,7 +53,7 @@
     > .logo {
       max-width: 6em;
       margin-right: auto;
-      font-size: 36px;
+      font-size: 30px;
 
     }
 

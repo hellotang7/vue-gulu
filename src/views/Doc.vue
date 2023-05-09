@@ -8,7 +8,7 @@
                 <h2>文档</h2>
                 <ol >
                     <li>
-                        <router-link to="/doc/introduce">介绍</router-link>
+                        <router-link to="/doc/">介绍</router-link>
                     </li>
                     <li>
                         <router-link to="/doc/installation">安转</router-link>
@@ -92,7 +92,7 @@
 
     > .content {
       flex-grow: 1;
-      padding: 90px 40px 0 290px;
+      padding: 70px 40px 0 290px;
       @media (max-width: 700px) {
         padding-left: 0;
         padding-right:0 ;

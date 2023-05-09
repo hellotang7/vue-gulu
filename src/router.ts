@@ -5,7 +5,6 @@ import Switch from './components/SwitchDemo.vue'
 import Button from './components/ButtonDemo.vue'
 import Dialog from './components/DialogDemo.vue'
 import Tabs from './components/TabsDemo.vue'
-import Docdome from './components/Docdome.vue'
 import Start from './components/Start.vue'
 import Introduce from './components/Introduce.vue'
 import Installation from  './components/Installation.vue'
@@ -17,14 +16,16 @@ export const router = createRouter({
         {path:'/',component:Home},
         {path:'/doc',component:Doc,
             children:[
-                {path:'',component:Docdome},
+                {path:'',component:Introduce},
+                {path:'installation',component:Installation},
+                {path:'start',component:Start},
+
                 {path:'button',component:Button},
                 {path:'dialog',component:Dialog},
                 {path:'tabs',component:Tabs},
                 {path:'switch',component:Switch},
-                {path:'introduce',component:Introduce},
-                {path:'installation',component:Installation},
-                {path:'start',component:Start},
+
+
             ]}
     ]
 })
