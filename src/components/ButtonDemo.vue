@@ -78,7 +78,6 @@
         <h2>加载</h2>
         <div class="component">
             <Button loading>加载中...</Button>
-            <Button loading>加载中...</Button>
         </div>
     </div>
 </template>
