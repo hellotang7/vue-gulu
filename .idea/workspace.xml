@@ -75,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683382268911</updated>
       <workItem from="1683382270655" duration="55311000" />
-      <workItem from="1683636198841" duration="26017000" />
+      <workItem from="1683636198841" duration="28993000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1683382877824</created>
@@ -196,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683708716047</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="dialog支持visible">
+      <created>1683715770693</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1683715770693</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +227,7 @@
     <MESSAGE value="添加level属性" />
     <MESSAGE value="添加disabled loading属性" />
     <MESSAGE value="创建dialog组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建dialog组件" />
+    <MESSAGE value="dialog支持visible" />
+    <option name="LAST_COMMIT_MESSAGE" value="dialog支持visible" />
   </component>
 </project>
