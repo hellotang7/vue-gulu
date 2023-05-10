@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a177b428-0153-4fd9-8407-2a2c7a1d5e72" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683382268911</updated>
       <workItem from="1683382270655" duration="55311000" />
-      <workItem from="1683636198841" duration="23798000" />
+      <workItem from="1683636198841" duration="26017000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1683382877824</created>
@@ -190,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683707598450</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="创建dialog组件">
+      <created>1683708716047</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683708716047</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +219,7 @@
     <MESSAGE value="添加size 添加css" />
     <MESSAGE value="添加level属性" />
     <MESSAGE value="添加disabled loading属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加disabled loading属性" />
+    <MESSAGE value="创建dialog组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建dialog组件" />
   </component>
 </project>
