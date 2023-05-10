@@ -20,10 +20,11 @@ export const router = createRouter({
                 {path:'installation',component:Installation},
                 {path:'start',component:Start},
 
+                {path:'switch',component:Switch},
                 {path:'button',component:Button},
                 {path:'dialog',component:Dialog},
                 {path:'tabs',component:Tabs},
-                {path:'switch',component:Switch},
+
 
 
             ]}

@@ -1,6 +1,11 @@
 <template>
 
-    <button class="gulu-button" :class="classes">
+    <button class="gulu-button"
+            :class="classes"
+            :disabled="disabled">
+        <span v-if="loading"
+              class="gulu-loadingIndicator">
+        </span>
         <slot/>
     </button>
 </template>
@@ -21,8 +26,16 @@
             },
             level: {
                 type: String,
-                default: "button"
-            }
+                default: "vnormal"
+            },
+            disabled:{
+                type:Boolean,
+                default:false
+            },
+            loading:{
+                type:Boolean,
+                default:false
+            },
         },
         setup(props) {
             const {theme, size, level} = props;
@@ -33,12 +46,14 @@
                     [`gulu-level-${level}`]: level,
                 };
             });
+
             return {classes}
         }
     }
 </script>
 
 <style lang="scss">
+
   .gulu-button {
     box-sizing: border-box;
     height: 32px;
@@ -90,6 +105,14 @@
 
     &.gulu-size-normal {
       &.gulu-level-button {
+        background: #fff;
+        border: 1px solid #dcdfe6;
+        color: #606266;
+        &:hover{
+          color: #409eff;
+          border-color: #c6e2ff;
+          background-color: #ecf5ff
+        }
       }
 
       &.gulu-level-main {
@@ -147,6 +170,48 @@
           color: #fff;
         }
       }
+
+      &.gulu-theme-button{
+        &[disabled]{
+          cursor: not-allowed;
+          color: #a3a3a3;
+          background: #dbdbdb;
+          border-color: #a3a3a3;
+        }
+      }
+
+      &.gulu-theme-link{
+        &[disabled]{
+          cursor: not-allowed;
+          background-color: #fff;
+          border-color: #ebeef5;
+          color: #c0c4cc;
+        }
+      }
+
+      &.gulu-theme-text{
+        &[disabled]{
+          cursor: not-allowed;
+          //border: none;
+          color: #c0c4cc;
+          border-color: transparent;
+          background: transparent;
+        }
+      }
+    }
+    >.gulu-loadingIndicator{
+      width: 14px;
+      height: 14px;
+      display: inline-block;
+      margin-right: 4px;
+      border-radius: 8px;
+      border-color: #40a9ff #40a9ff #40a9ff transparent;
+      border-style: solid;
+      animation: gulu-span 1s infinite linear;
+    }
+    @keyframes gulu-span {
+      0%{ transform: rotate(0deg)}
+      100%{transform: rotate(360deg)}
     }
   }
 </style>
