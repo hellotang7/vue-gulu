@@ -1,7 +1,9 @@
 <template>
-    <div>Dialog 示例</div>
-    <h1>示例1</h1>
-    <Button @click="toggle">toggle</Button>
+    <h1>Dialog 对话框</h1>
+
+    <div class="demo">
+    <h2>基本</h2>
+    <Button  @click="toggle">toggle</Button>
     <Dialog
             v-model:visible="x"
             :closeOnClickOcerlay="false"
@@ -16,9 +18,12 @@
             <strong>加粗的标题</strong>
         </template>
     </Dialog>
+    </div>
 
-    <h1>示例2</h1>
+    <div class="demo">
+    <h2>简易</h2>
     <Button @click="showDialog">show</Button>
+    </div>
 
 </template>
 
