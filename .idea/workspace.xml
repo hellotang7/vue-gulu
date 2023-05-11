@@ -75,7 +75,7 @@
       <updated>1683382268911</updated>
       <workItem from="1683382270655" duration="55311000" />
       <workItem from="1683636198841" duration="29519000" />
-      <workItem from="1683720140804" duration="17439000" />
+      <workItem from="1683720140804" duration="17772000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1683382877824</created>
@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683819172547</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="优化1">
+      <created>1683819831278</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1683819831278</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +284,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="初始化router" />
     <MESSAGE value="搭建HTML结构" />
     <MESSAGE value="封装Topnav组件" />
     <MESSAGE value="搭建aside的html" />
@@ -302,6 +308,7 @@
     <MESSAGE value="渲染Tabs内容" />
     <MESSAGE value="indicator css" />
     <MESSAGE value="实现下划线滑动" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现下划线滑动" />
+    <MESSAGE value="优化1" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化1" />
   </component>
 </project>
