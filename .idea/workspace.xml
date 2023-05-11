@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a177b428-0153-4fd9-8407-2a2c7a1d5e72" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <updated>1683382268911</updated>
       <workItem from="1683382270655" duration="55311000" />
       <workItem from="1683636198841" duration="29519000" />
-      <workItem from="1683720140804" duration="16826000" />
+      <workItem from="1683720140804" duration="17439000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1683382877824</created>
@@ -253,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683813665079</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="实现下划线滑动">
+      <created>1683819172547</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1683819172547</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +277,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="初始化项目" />
     <MESSAGE value="初始化router" />
     <MESSAGE value="搭建HTML结构" />
     <MESSAGE value="封装Topnav组件" />
@@ -296,6 +301,7 @@
     <MESSAGE value="创建Tab和Tabs组件" />
     <MESSAGE value="渲染Tabs内容" />
     <MESSAGE value="indicator css" />
-    <option name="LAST_COMMIT_MESSAGE" value="indicator css" />
+    <MESSAGE value="实现下划线滑动" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现下划线滑动" />
   </component>
 </project>
