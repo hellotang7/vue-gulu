@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a177b428-0153-4fd9-8407-2a2c7a1d5e72" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <updated>1683382268911</updated>
       <workItem from="1683382270655" duration="55311000" />
       <workItem from="1683636198841" duration="29519000" />
-      <workItem from="1683720140804" duration="7447000" />
+      <workItem from="1683720140804" duration="11388000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1683382877824</created>
@@ -238,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683733957598</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="渲染Tabs内容">
+      <created>1683735634739</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683735634739</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +276,7 @@
     <MESSAGE value="使用Teleport" />
     <MESSAGE value="openDialog一句话打开Dialog" />
     <MESSAGE value="创建Tab和Tabs组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建Tab和Tabs组件" />
+    <MESSAGE value="渲染Tabs内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="渲染Tabs内容" />
   </component>
 </project>
