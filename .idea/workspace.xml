@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a177b428-0153-4fd9-8407-2a2c7a1d5e72" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +18,9 @@
       <list>
         <option value="package.json" />
         <option value="SCSS File" />
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -85,7 +78,7 @@
       <workItem from="1683636198841" duration="29519000" />
       <workItem from="1683720140804" duration="20385000" />
       <workItem from="1683885752259" duration="48000" />
-      <workItem from="1683885862736" duration="7269000" />
+      <workItem from="1683885862736" duration="9394000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1683382877824</created>
@@ -283,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683820238266</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="抽离用户需要拷贝的代码">
+      <created>1683899609573</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1683899609574</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +301,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="封装Topnav组件" />
     <MESSAGE value="搭建aside的html" />
     <MESSAGE value="实现aside切换" />
     <MESSAGE value="完善aside切换逻辑" />
@@ -326,6 +325,7 @@
     <MESSAGE value="实现下划线滑动" />
     <MESSAGE value="优化1" />
     <MESSAGE value="优化3（优化2无效）" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化3（优化2无效）" />
+    <MESSAGE value="抽离用户需要拷贝的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽离用户需要拷贝的代码" />
   </component>
 </project>

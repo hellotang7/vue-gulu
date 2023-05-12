@@ -12,13 +12,12 @@
                 <Button>查看代码</Button>
             </div>
             <div class="demo-code">
-                <pre>&lt;Switch v-model:value="bool" /&gt;</pre>
+                <pre>{{Switch1Demo.__sourceCode}}</pre></pre>
             </div>
         </div>
 
 
         <div class="demo">
-            <h2>常规用法</h2>
             <h2>支持 disabled </h2>
             <div class="demo-component">
                 <Switch2Demo/>
@@ -27,7 +26,7 @@
                 <Button>查看代码</Button>
             </div>
             <div class="demo-code">
-                <pre>&lt;Switch v-model:value="bool" /&gt;</pre>
+                <pre>{{Switch2Demo.__sourceCode}}</pre></pre>
             </div>
         </div>
 
@@ -41,6 +40,10 @@
     import Button from '../lib/Button.vue'
     import Switch1Demo from './Switch1.demo.vue'
     import Switch2Demo from './Switch2.demo.vue'
+
+    // console.log(Switch1Demo)
+    // console.log(Switch1Demo.__sourceCode)
+
 
     import {
         ref
@@ -56,14 +59,16 @@
         setup() {
             const bool = ref(false)
             return {
-                bool
+                bool,
+                Switch1Demo,
+                Switch2Demo
             }
         }
     }
 </script>
 
 <style lang="scss" scoped>
-  $border-color: #d9d9d9;
+  $border-color: #daa593;
   .demo {
     border: 1px solid $border-color;
     margin: 16px 0 32px;
