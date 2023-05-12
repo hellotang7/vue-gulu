@@ -8,7 +8,7 @@
                 <h2>文档</h2>
                 <ol >
                     <li>
-                        <router-link to="/doc/">介绍</router-link>
+                        <router-link to="/doc/introduce">介绍</router-link>
                     </li>
                     <li>
                         <router-link to="/doc/installation">安转</router-link>
@@ -72,7 +72,7 @@
 
 <style lang="scss" scoped>
 
- .router-link-exact-active{
+ .router-link-active{
    background: #eaeae9;
  }
 

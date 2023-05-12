@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a177b428-0153-4fd9-8407-2a2c7a1d5e72" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +82,7 @@
       <workItem from="1683636198841" duration="29519000" />
       <workItem from="1683720140804" duration="20385000" />
       <workItem from="1683885752259" duration="48000" />
-      <workItem from="1683885862736" duration="11691000" />
+      <workItem from="1683885862736" duration="17208000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1683382877824</created>
@@ -304,7 +308,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683902844886</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="优化Demo">
+      <created>1683904009776</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1683904009776</updated>
+    </task>
+    <task id="LOCAL-00034" summary="删掉无用代码">
+      <created>1683904136688</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1683904136688</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,8 +340,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="实现路由切换之后关闭aside" />
-    <MESSAGE value="基本完成官网框架" />
     <MESSAGE value="实现按钮点击切换" />
     <MESSAGE value="使用v-model实现按钮点击切换" />
     <MESSAGE value="添加页面样式及整体布局" />
@@ -347,6 +363,8 @@
     <MESSAGE value="展示源代码" />
     <MESSAGE value="小优化" />
     <MESSAGE value="源代码高亮并添加背景" />
-    <option name="LAST_COMMIT_MESSAGE" value="源代码高亮并添加背景" />
+    <MESSAGE value="优化Demo" />
+    <MESSAGE value="删掉无用代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="删掉无用代码" />
   </component>
 </project>
