@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a177b428-0153-4fd9-8407-2a2c7a1d5e72" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +16,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package.json" />
         <option value="SCSS File" />
         <option value="JavaScript File" />
-        <option value="Vue Single File Component" />
         <option value="TypeScript File" />
+        <option value="package.json" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -80,7 +78,7 @@
       <workItem from="1683636198841" duration="29519000" />
       <workItem from="1683720140804" duration="20385000" />
       <workItem from="1683885752259" duration="48000" />
-      <workItem from="1683885862736" duration="10431000" />
+      <workItem from="1683885862736" duration="11691000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1683382877824</created>
@@ -299,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683901955002</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="源代码高亮并添加背景">
+      <created>1683902844886</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1683902844886</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +322,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完善aside切换逻辑" />
     <MESSAGE value="实现路由切换之后关闭aside" />
     <MESSAGE value="基本完成官网框架" />
     <MESSAGE value="实现按钮点击切换" />
@@ -342,6 +346,7 @@
     <MESSAGE value="抽离用户需要拷贝的代码" />
     <MESSAGE value="展示源代码" />
     <MESSAGE value="小优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="小优化" />
+    <MESSAGE value="源代码高亮并添加背景" />
+    <option name="LAST_COMMIT_MESSAGE" value="源代码高亮并添加背景" />
   </component>
 </project>
