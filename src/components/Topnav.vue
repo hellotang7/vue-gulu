@@ -1,7 +1,7 @@
 <template>
     <div class="topnav">
-      <span class="toggleAside" @click="toAside">
-          <svg class="icon" aria-hidden="true">
+      <span v-if="toggleMenuButtonVisible" class="toggleAside" @click="toAside">
+          <svg class="icon" >
             <use xlink:href="#icon-menu"></use>
           </svg>
       </span>
@@ -25,6 +25,12 @@
     import {inject, Ref} from "vue";
 
     export default {
+        props:{
+            toggleMenuButtonVisible:{
+                type:Boolean,
+                default:false
+            }
+        },
         setup() {
             const asideVisible = inject<Ref<boolean>>('asideVisible') //git
             // console.log('topnav 获取的 asideVisible 为:' + asideVisible.value)
@@ -38,7 +44,6 @@
 
 <style lang="scss" scoped>
   .topnav {
-    //border: 1px solid red;
 //background: #eaeae9;
     display: flex;
     padding: 16px 100px;
@@ -71,6 +76,7 @@
     }
 
     .toggleAside {
+
       display: none;
       width: 24px;
       height: 24px;
@@ -80,7 +86,7 @@
       transform: translateY(-50%);
       font-size: 30px;
       line-height: 24px;
-
+      cursor: pointer;
 
     }
 
@@ -93,8 +99,7 @@
       }
       .toggleAside {
         display: inline-block;
-
-
+        //border: 1px solid red;
       }
     }
   }

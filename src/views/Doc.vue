@@ -2,7 +2,7 @@
     <div class="layout">
         <BackGround/>
 
-        <Topnav class="nav"/>
+        <Topnav :toggleMenuButtonVisible="true" class="nav"/>
         <div class="content">
             <aside v-if="asideVisible">
                 <h2>文档</h2>
@@ -72,7 +72,9 @@
 
 <style lang="scss" scoped>
 
-
+ .router-link-exact-active{
+   background: #eaeae9;
+ }
 
   @media (max-width: 500px) {
     .toggleAside {
@@ -112,17 +114,18 @@
       background: rgba(0, 0, 0, .2);
       min-width: 250px;
       border-radius: 6px;
-      padding:98px 16px;
+      padding:98px 0px;
       z-index: 5;
       > h2 {
         margin-bottom: 4px;
+        padding: 0 16px;
       }
 
       > ol {
         > li {
           a {
             display: block;
-            padding: 10px 22px;
+            padding: 10px 38px;
             color: #3a6199;
           }
         }
