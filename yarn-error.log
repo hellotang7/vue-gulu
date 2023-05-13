@@ -1,5 +1,5 @@
 Arguments: 
-  D:\node.js\nodejs\node.exe D:\Software\Yarn\bin\yarn.js add thhp-server
+  D:\node.js\nodejs\node.exe D:\Software\Yarn\bin\yarn.js add --dev rollup-plugin-esbuild rollup-plugin-vue rollup-plugin-scss sass rollup-plugin-terser
 
 PATH: 
   C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\VS Code\Microsoft VS Code\bin;C:\Program Files\dotnet\;D:\node.js\nodejs\;D:\Software\Yarn\bin\;C:\Users\Tang\AppData\Roaming\npm;C:\Users\Tang\AppData\Local\Microsoft\WindowsApps;C:\Users\Tang\AppData\Roaming\npm;C:\Users\Tang\AppData\Local\Yarn\bin;C:\Program Files\Java\jdk1.7.0_03\bin;C:\Program Files\Java\jdk1.7.0_03\jre\bin;;D:\WebStorm\WebStorm 2022.3.1\bin;;D:\VS Code\Microsoft VS Code\bin;D:\T\vue-gulu\node_modules\.bin
@@ -14,25 +14,20 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/thhp-server: Not found
-      at Request.params.callback [as _callback] (D:\Software\Yarn\lib\cli.js:66097:18)
-      at Request.self.callback (D:\Software\Yarn\lib\cli.js:140749:22)
-      at Request.emit (node:events:513:28)
-      at Request.<anonymous> (D:\Software\Yarn\lib\cli.js:141721:10)
-      at Request.emit (node:events:513:28)
-      at IncomingMessage.<anonymous> (D:\Software\Yarn\lib\cli.js:141643:12)
-      at Object.onceWrapper (node:events:627:28)
-      at IncomingMessage.emit (node:events:525:35)
-      at endReadableNT (node:internal/streams/readable:1358:12)
-      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+  Error: EPERM: operation not permitted, unlink 'D:\T\vue-gulu\node_modules\esbuild\esbuild.exe'
 
 npm manifest: 
   {
     "name": "gulu",
-    "version": "0.0.0",
+    "version": "0.0.1",
+    "files": ["dist/lib/*"],
+    "main": "dist/lib/gulu.js",
     "scripts": {
       "dev": "vite",
       "build": "vite build"
+    },
+    "resolutions": {
+      "node-sass": "npm:sass@^1.26.11"
     },
     "dependencies": {
       "github-markdown-css": "^5.2.0",
@@ -42,7 +37,11 @@ npm manifest:
     },
     "devDependencies": {
       "@vue/compiler-sfc": "^3.0.0-rc.1",
-      "sass": "1.26.10",
+      "rollup-plugin-esbuild": "^2.5.0",
+      "rollup-plugin-scss": "^2.6.0",
+      "rollup-plugin-terser": "^7.0.2",
+      "rollup-plugin-vue": "^6.0.0-beta.10",
+      "sass": "^1.26.11",
       "vite": "^1.0.0-rc.1"
     }
   }

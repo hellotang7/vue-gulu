@@ -1,6 +1,6 @@
 <template>
+
     <template v-if="visible">
-        //Teleport 防止弹窗被遮盖
         <Teleport to="body">
         <div  @click="closeOnClickOcerlay" class="gulu-dialog-overlay"></div>
         <div class="gulu-dialog-wrapper">
