@@ -5,19 +5,19 @@
             <use xlink:href="#icon-menu"></use>
           </svg>
       </span>
-        <div class="logo">
+        <div class="logo aa">
             <router-link to="/">
                 <svg  class="icon" aria-hidden="true" style="color: #cc724d">
                     <use xlink:href="#icon-cola"></use>
                 </svg>
             </router-link>
         </div>
-        <ul class="menu">
-            <li>
-                <router-link to="/doc">文档</router-link>
-            </li>
+        <div class="menu">
 
-        </ul>
+                <router-link to="/doc">文档</router-link>
+
+
+        </div>
     </div>
 </template>
 
@@ -44,7 +44,6 @@
 
 <style lang="scss" scoped>
   .topnav {
-//background: #eaeae9;
     display: flex;
     padding: 16px 100px;
     position: fixed;
@@ -59,21 +58,13 @@
       max-width: 6em;
       margin-right: auto;
       font-size: 30px;
-
-    }
-
-
-    > .menu {
-      display: flex;
-      white-space: nowrap;
-      flex-wrap: nowrap;
-
-      > li {
-        margin: 0 1em;
-        //font-size: 20px;
+      &:hover {
+        font-size: 29px;
       }
-
     }
+
+
+
 
     .toggleAside {
 
@@ -95,11 +86,11 @@
         display: none
       }
       .logo {
-        margin: 0 auto
+        margin: 0 auto;
+        font-size: 32px;
       }
       .toggleAside {
         display: inline-block;
-        //border: 1px solid red;
       }
     }
   }

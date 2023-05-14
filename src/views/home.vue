@@ -1,16 +1,24 @@
 <template>
     <div>
 
-<BackGround/>
+        <BackGround/>
         <div class="banner">
             <div class="top">
                 <Topnav/>
                 <h1>可乐 UI </h1>
                 <h2>一个普普通通 平平无奇 的 UI 框架</h2>
-                <p class="actions">
-                    <a href="https://github.com/hellotang7/vue-gulu">GitHub</a>
-                    <router-link to="/doc">开始</router-link>
-                </p>
+                <div class="actions">
+                    <a class="aa" href="https://github.com/hellotang7/vue-gulu">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-github-fill"></use>
+                        </svg>
+                    </a>
+                    <router-link class="aa" to="/doc/installation">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-go"></use>
+                        </svg>
+                    </router-link>
+                </div>
             </div>
             <div class="button">
                 <ul>
@@ -39,11 +47,14 @@
 
 <script>
     import Topnav from "../components/Topnav.vue";
-import BackGround from "../components/BackGround.vue";
+    import BackGround from "../components/BackGround.vue";
+
     export default {
         name: "home",
-        components: {Topnav,
-            BackGround}
+        components: {
+            Topnav,
+            BackGround
+        }
     }
 </script>
 
@@ -51,38 +62,42 @@ import BackGround from "../components/BackGround.vue";
 
 
   .banner {
-
     height: 100vh;
     padding: 90px 0;
-
 
     flex-direction: column;
 
     text-align: center;
 
     .top {
-      //border: 1px solid red;
       width: 100%;
-      //margin: 0 auto 80px auto;
       padding: 50px 0;
-
+      @media (max-width: 700px) {
+        padding: 18px 0;
+      }
       h2 {
         padding: 20px 0
       }
 
       .actions {
-        padding: 8px 0;
-
+        height: 40px;
         a {
-          margin: 0 8px;
-          background: #f9bfaf;
           display: inline-block;
-          $h: 38px;
-          height: $h;
-          line-height: $h;
-          border-radius: $h/4;
+          height: 40px;
+          line-height: 40px;
+          margin: 0 8px;
           padding: 0 24px;
-          color: #bf6950;
+
+          .icon {
+            width: 38px;
+            height: 38px;
+            transition: all .2s ease-out;
+            &:hover {
+              width: 36px;
+              height: 36px;
+            }
+          }
+
         }
       }
     }
@@ -113,11 +128,12 @@ import BackGround from "../components/BackGround.vue";
             height: 74px;
             margin: auto;
           }
-          img{
+
+          img {
             width: 66px;
             margin: auto;
             transform: translateY(-6660px);
-            filter: drop-shadow(#264065 0 6660px)  //颜色、x轴偏移量、y轴偏移量,这里的颜色就是你要指定的颜色，不管原来的图片是什么颜色，都会变成这个颜色
+            filter: drop-shadow(#264065 0 6660px) //颜色、x轴偏移量、y轴偏移量,这里的颜色就是你要指定的颜色，不管原来的图片是什么颜色，都会变成这个颜色
           }
 
           h3 {

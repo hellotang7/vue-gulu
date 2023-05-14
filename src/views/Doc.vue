@@ -73,7 +73,9 @@
 <style lang="scss" scoped>
 
  .router-link-active{
-   background: #eaeae9;
+   //background: #eaeae9;
+   border-right: 3px solid #ce744f;
+   color: #ce744f;
  }
 
   @media (max-width: 500px) {
@@ -116,6 +118,7 @@
       border-radius: 6px;
       padding:98px 0px;
       z-index: 5;
+      transition: all .2s ease-out;
       > h2 {
         margin-bottom: 4px;
         padding: 0 16px;
@@ -126,7 +129,7 @@
           a {
             display: block;
             padding: 10px 38px;
-            color: #3a6199;
+            //color: #3a6199;
           }
         }
       }
