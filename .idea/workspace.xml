@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a177b428-0153-4fd9-8407-2a2c7a1d5e72" name="变更" comment="编译库文件">
+    <list default="true" id="a177b428-0153-4fd9-8407-2a2c7a1d5e72" name="变更" comment="添加了一些css样式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Installation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Installation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +21,9 @@
       <list>
         <option value="SCSS File" />
         <option value="package.json" />
-        <option value="Vue Single File Component" />
         <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -98,6 +94,17 @@
       <workItem from="1684071661431" duration="169000" />
       <workItem from="1684071843867" duration="785000" />
       <workItem from="1684072656603" duration="278000" />
+      <workItem from="1684072950933" duration="2150000" />
+      <workItem from="1684158006732" duration="3444000" />
+      <workItem from="1684162879727" duration="290000" />
+      <workItem from="1684323364454" duration="376000" />
+      <workItem from="1684323797651" duration="43000" />
+      <workItem from="1684746654275" duration="92000" />
+      <workItem from="1687241784643" duration="115000" />
+      <workItem from="1687585880903" duration="646000" />
+      <workItem from="1690735855715" duration="388000" />
+      <workItem from="1690736338809" duration="680000" />
+      <workItem from="1692764168609" duration="194000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1683382877824</created>
@@ -365,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683978998290</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="添加了一些css样式">
+      <created>1684073383108</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1684073383108</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加size 添加css" />
     <MESSAGE value="添加level属性" />
     <MESSAGE value="添加disabled loading属性" />
     <MESSAGE value="创建dialog组件" />
@@ -419,6 +432,7 @@
     <MESSAGE value="展示或隐藏代码" />
     <MESSAGE value="创建lib/index.js" />
     <MESSAGE value="编译库文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="编译库文件" />
+    <MESSAGE value="添加了一些css样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了一些css样式" />
   </component>
 </project>

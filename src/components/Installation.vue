@@ -1,9 +1,9 @@
 <template>
     <div class="markdown-body" ><h1 id="安装">安装</h1>
         <p>打开终端运行下列命令：</p>
-        <pre><code>npm install crisps-ui</code></pre>
+        <pre><code>npm install tang-cola-ui</code></pre>
         <p>或者</p>
-        <pre><code>yarn add crisps-ui</code></pre>
+        <pre><code>yarn add tang-cola-ui</code></pre>
         <p>下一节： <router-link to="/doc/start">开始使用</router-link></p>
     </div></template>
 
